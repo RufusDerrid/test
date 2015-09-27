@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Player>
+  <Image>
+    <Position>
+      <X>0</X>
+      <Y>300</Y>
+    </Position>
+    <Path>Gameplay/player</Path>
+    <Effects>SpriteSheetEffect</Effects>
+    <ScaleEffect>
+      <Speed>2</Speed>
+    </ScaleEffect>
+  </Image>
+  <JumpSpeed>1200</JumpSpeed>
+  <MoveSpeed>400</MoveSpeed>
+  
+  <Gravity>45</Gravity>
+</Player>

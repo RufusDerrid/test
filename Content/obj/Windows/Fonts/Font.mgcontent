@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Fonts/Font.spritefont</SourceFile>
+  <SourceTime>2015-08-19T20:47:13.1703794+03:00</SourceTime>
+  <DestFile>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/bin/Windows/Fonts/Font.xnb</DestFile>
+  <DestTime>2015-09-12T21:12:58.4298782+03:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2015-04-29T20:14:44+03:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2015-04-29T20:14:44+03:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

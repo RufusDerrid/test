@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level>
+  <LevelObjects>
+    <TexturePath>Gameplay/ground</TexturePath>
+    <Position>
+      <X>0</X>
+      <Y>700</Y>
+    </Position>
+    <CollisionRect>
+      <Width>1024</Width>
+      <Height>40</Height>
+    </CollisionRect>
+  </LevelObjects>
+
+  <LevelObjects>
+    <TexturePath>Gameplay/door</TexturePath>
+    <Position>
+      <X>885</X>
+      <Y>118</Y>
+    </Position>
+    <CollisionRect>
+      <Width>128</Width>
+      <Height>128</Height>
+    </CollisionRect>
+    <IsCollided>false</IsCollided>
+  </LevelObjects>
+
+  <LevelObjects>
+    <TexturePath>Gameplay/platform1</TexturePath>
+    <Position>
+      <X>121</X>
+      <Y>502</Y>
+    </Position>
+    <CollisionRect>
+      <Width>137</Width>
+      <Height>45</Height>
+    </CollisionRect>
+  </LevelObjects>
+
+  <LevelObjects>
+    <TexturePath>Gameplay/platform1</TexturePath>
+    <Position>
+      <X>455</X>
+      <Y>262</Y>
+    </Position>
+    <IsVisible>false</IsVisible>
+    <CollisionRect>
+      <Width>137</Width>
+      <Height>45</Height>
+    </CollisionRect>
+  </LevelObjects>
+
+  <LevelObjects>
+    <TexturePath>Gameplay/platform2</TexturePath>
+    <Position>
+      <X>706</X>
+      <Y>244</Y>
+    </Position>
+    <CollisionRect>
+      <Width>316</Width>
+      <Height>43</Height>
+    </CollisionRect>
+  </LevelObjects>
+
+  <InteractiveLevelObjects>
+    <TexturePath>Gameplay/lever</TexturePath>
+    <Position>
+      <X>830</X>
+      <Y>666</Y>
+    </Position>
+    <StatesNumber>2</StatesNumber>
+    <IsCollided>false</IsCollided>
+    <CollisionRect>
+      <Width>26</Width>
+      <Height>42</Height>
+    </CollisionRect>
+  </InteractiveLevelObjects>
+  
+</Level>

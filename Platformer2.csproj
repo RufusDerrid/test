@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3388A19-A4AF-4CCF-A9AC-DAED071882AB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Platformer2</RootNamespace>
+    <AssemblyName>Platformer2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <MonoGameContentBuilderExe>
+    </MonoGameContentBuilderExe>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="alterverse\AlternativeIcon.cs" />
+    <Compile Include="alterverse\Alterverse.cs" />
+    <Compile Include="core\Camera.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="core\Factory.cs" />
+    <Compile Include="image\FadeEffect.cs" />
+    <Compile Include="core\FloatRect.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="gameScreens\GameoverScreen.cs" />
+    <Compile Include="gameScreens\GameplayScreen.cs" />
+    <Compile Include="core\screenSystem\GameScreen.cs" />
+    <Compile Include="image\Image.cs" />
+    <Compile Include="image\ImageEffect.cs" />
+    <Compile Include="InputManager.cs" />
+    <Compile Include="map\Layer.cs" />
+    <Compile Include="alterverse\BaseLevelObject.cs" />
+    <Compile Include="alterverse\GameObject.cs" />
+    <Compile Include="alterverse\InteractiveLevelObject.cs" />
+    <Compile Include="alterverse\InteractiveLevelObjectView.cs" />
+    <Compile Include="alterverse\Level.cs" />
+    <Compile Include="alterverse\LevelView.cs" />
+    <Compile Include="map\Map.cs" />
+    <Compile Include="menuSystem\Menu.cs" />
+    <Compile Include="menuSystem\MenuItem.cs" />
+    <Compile Include="menuSystem\MenuManager.cs" />
+    <Compile Include="core\Model.cs" />
+    <Compile Include="gameScreens\PhysicsTestScreen.cs" />
+    <Compile Include="physics\PointMass.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="image\ScaleEffect.cs" />
+    <Compile Include="core\screenSystem\ScreenManager.cs" />
+    <Compile Include="gameScreens\SplashScreen.cs" />
+    <Compile Include="image\SpriteSheetEffect.cs" />
+    <Compile Include="map\Tile.cs" />
+    <Compile Include="gameScreens\TitleScreen.cs" />
+    <Compile Include="core\View.cs" />
+    <Compile Include="core\XmlManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <Content Include="Content\Data\Gameplay\Maps\Map1.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Data\Gameplay\Level.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Data\Gameplay\Player.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Data\Menus\TestMenu.xml" />
+    <Content Include="Content\Data\GameoverScreen.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Data\SplashScreen.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Data\ScreenManager.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Data\Menus\TitleMenu.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Content\Fonts\Font.xnb" />
+    <None Include="Content\Gameplay\alterIcon.xnb" />
+    <None Include="Content\Gameplay\door.xnb" />
+    <None Include="Content\Gameplay\ground.xnb" />
+    <None Include="Content\Gameplay\lever.xnb" />
+    <None Include="Content\Gameplay\platform1.xnb" />
+    <None Include="Content\Gameplay\platform2.xnb" />
+    <None Include="Content\Gameplay\player.xnb" />
+    <None Include="Content\Gameplay\TileSets\tileset1.xnb" />
+    <None Include="Content\ScreenManager\FadeImage.xnb" />
+    <None Include="Content\Splash\image1.xnb" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Splash/image1.jpg</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Fonts/Font.spritefont</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/ScreenManager/FadeImage.png</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Gameplay/player.png</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Gameplay/TileSets/tileset1.png</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Gameplay/test.png</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Gameplay/ground.png</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Gameplay/door.png</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Gameplay/lever.png</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Gameplay/platform1.png</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Gameplay/platform2.png</File>
+    <File>C:/Users/Solaris/Documents/Visual Studio 2015/Projects/Platformer2/Content/Gameplay/alterIcon.png</File>
+  </SourceFiles>
+</SourceFileCollection>

@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Platformer2.LevelObjects.AlternativeIcon" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAQACQAAAgAhEAAAAAAAAACAAAAIAAAAgAAAAAQ=</HashCode>
+      <FileName>alterverse\AlternativeIcon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.LevelObjects.Alterverse">
+    <Position X="14.5" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAEAAAAAABAAAAAAAEACCBAAEAAAAAAgQ=</HashCode>
+      <FileName>alterverse\Alterverse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.LevelObjects.BaseLevelObject" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>alterverse\BaseLevelObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.LevelObjects.GameObject" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>alterverse\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.LevelObjects.InteractiveLevelObject" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAEAAAAACQAAAAEAAACAAAAAAAAABA=</HashCode>
+      <FileName>alterverse\InteractiveLevelObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.LevelObjects.InteractiveLevelObjectView">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>alterverse\InteractiveLevelObjectView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.LevelObjects.Level" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAIABAAAAAAACAAAAAAgCAABA=</HashCode>
+      <FileName>alterverse\Level.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Platformer2.LevelObjects.LevelView">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAEgAAAAAAAEAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>alterverse\LevelView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Camera" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAAAAAAAAAAAAABAAAAIAAAAAQAAAgAAAAAA=</HashCode>
+      <FileName>core\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Factory" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAA=</HashCode>
+      <FileName>core\Factory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.FloatRect" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAQAAAAAAAMAQgACACAAAAAAIA=</HashCode>
+      <FileName>core\FloatRect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Model" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEAAgAEAAAAAAAAAAAAAAAAAAAAAAIBA=</HashCode>
+      <FileName>core\Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Platformer2.GameScreen" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgABAAAAAAAAAAAAAAQAAQAAAAAAAAQ=</HashCode>
+      <FileName>core\screenSystem\GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.ScreenManager" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQEEAAAAgAAAgAAAACAAAYAAABABBABQAAEIAAAAAQ=</HashCode>
+      <FileName>core\screenSystem\ScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.View">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIEAQACQAAAgABAgAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>core\View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.XmlManager&lt;T&gt;" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>core\XmlManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Entity" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAABAAAMAhAAAAAAAACAAAAEEBAAAAABAgAEAAQ=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Game1" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEAAAAAAAwAAAAAAAAAAAAAAAAgAAAAAAAAAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.GameoverScreen" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>gameScreens\GameoverScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.GameplayScreen" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAEQAAAAAAAgABAIAACEAEAAAAIgAAAAABAEAAAAQ=</HashCode>
+      <FileName>gameScreens\GameplayScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.PhysicsTestScreen" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACQAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgQ=</HashCode>
+      <FileName>gameScreens\PhysicsTestScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.SplashScreen" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>gameScreens\SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.TitleScreen" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>gameScreens\TitleScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.FadeEffect" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAQ=</HashCode>
+      <FileName>image\FadeEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Image" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAkAWAAAAAAgIhEEYQAAECEICAABBAAAMAiAAAQIQ=</HashCode>
+      <FileName>image\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.ImageEffect" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>image\ImageEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.ScaleEffect" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>image\ScaleEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.SpriteSheetEffect" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAEAAAAAAAAAACAAAAAABAACAAAAAAAgAAIAAAAAQ=</HashCode>
+      <FileName>image\SpriteSheetEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.InputManager" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAABBEAAA=</HashCode>
+      <FileName>InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Layer" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQDEAAgAJAAAgAAAAAACCAAAAEAAJCAAAAAAAAAAAQ=</HashCode>
+      <FileName>map\Layer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Map" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAIAAAgAAAIAAAAAAAAAAAAAEAAAEAAAAgAQ=</HashCode>
+      <FileName>map\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Tile" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAACIAgAAAgRAAACAAAAAAAAABAAAAAgAAAABY=</HashCode>
+      <FileName>map\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Menu" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAmwAAAARACACAAABAAAAAAAEAAAAAAAU=</HashCode>
+      <FileName>menuSystem\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.MenuItem" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAIAAAAAA=</HashCode>
+      <FileName>menuSystem\MenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.MenuManager" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAAAABAAAhAAAAAACAAAAQ=</HashCode>
+      <FileName>menuSystem\MenuManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Player" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Program" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer2.Physics.PointMass" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAwAAIAAAAAAhAAAAAAAAAAAAAAAAAAAAgAAAAQA=</HashCode>
+      <FileName>physics\PointMass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
